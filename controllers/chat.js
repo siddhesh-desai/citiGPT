@@ -23,7 +23,7 @@ const renderChatUI = async (req, res) => {
 };
 
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-const indexName = "citiwise-open";
+const indexName = process.env.PINECONE_INDEX_NAME;
 const index = pc.index(indexName);
 
 // Setting up the LLM
@@ -45,7 +45,7 @@ async function getEmbeddings(prompt) {
 
 // Search in Pinecone
 async function queryPinecone(embedding) {
-    const queryResponse = await index.namespace("main-citi-site").query({
+    const queryResponse = await index.namespace(process.env.PINECONE_INDEX_NAMESPACE).query({
         topK: 3,
         vector: embedding,
         includeValues: false,

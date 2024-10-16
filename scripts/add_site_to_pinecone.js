@@ -5,7 +5,7 @@ const { Pinecone } = require('@pinecone-database/pinecone');
 
 dotenv.config();
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-const indexName = 'citiwise-open';
+const indexName = process.env.PINECONE_INDEX_NAME;
 
 // Create Index (if not already created)
 async function createIndex() {
@@ -101,7 +101,7 @@ async function main(websiteUrl, queryText, namespaceName) {
 // Example usage
 const websiteUrl = 'https://www.online.citibank.co.in/products-services/investments/mutual-funds/mutual-funds.htm?eOfferCode=LFTNVINV';
 const queryText = 'How to invest in mutual funds?';
-const namespaceName = 'main-citi-site';
+const namespaceName = process.env.PINECONE_INDEX_NAMESPACE;
 
 main(websiteUrl, queryText, namespaceName)
     .then(() => console.log('Process completed successfully.'))
