@@ -1,0 +1,209 @@
+{
+    "person": {
+        "name": "Siddhesh Desai",
+        "age": 20,
+        "occupation": "Software Engineer",
+        "annual_income": 1200000,
+        "monthly_expenses": {
+            "rent": 25000,
+            "groceries": 8000,
+            "utilities": 5000,
+            "transportation": 4000,
+            "entertainment": 3000,
+            "insurance_premium": 15000,
+            "miscellaneous": 7000
+        },
+        "investments": {
+            "stocks": {
+                "total_value": 400000,
+                "stocks_held": [
+                    {
+                        "name": "Tata Motors",
+                        "value": 120000
+                    },
+                    {
+                        "name": "Infosys",
+                        "value": 150000
+                    },
+                    {
+                        "name": "Reliance Industries",
+                        "value": 130000
+                    }
+                ]
+            },
+            "mutual_funds": {
+                "total_value": 300000,
+                "funds_held": [
+                    {
+                        "name": "Axis Bluechip Fund",
+                        "value": 150000
+                    },
+                    {
+                        "name": "HDFC Balanced Advantage Fund",
+                        "value": 150000
+                    }
+                ]
+            },
+            "fixed_deposits": {
+                "total_value": 500000,
+                "details": [
+                    {
+                        "bank": "HDFC Bank",
+                        "maturity_amount": 200000,
+                        "maturity_date": "2025-05-20"
+                    },
+                    {
+                        "bank": "ICICI Bank",
+                        "maturity_amount": 300000,
+                        "maturity_date": "2026-10-15"
+                    }
+                ]
+            },
+            "real_estate": {
+                "properties": [
+                    {
+                        "location": "Pune",
+                        "estimated_value": 7500000
+                    }
+                ]
+            }
+        },
+        "liabilities": {
+            "home_loan": {
+                "bank": "SBI",
+                "outstanding_amount": 3500000,
+                "monthly_emi": 40000,
+                "interest_rate": 6.75,
+                "loan_tenure_years": 15,
+                "loan_start_year": 2015,
+                "payment_history": {
+                    "total_payments": 60,
+                    "on_time_payments": 60
+                }
+            },
+            "personal_loan": {
+                "bank": "HDFC Bank",
+                "outstanding_amount": 100000,
+                "monthly_emi": 5000,
+                "interest_rate": 12.0,
+                "loan_tenure_years": 5,
+                "loan_start_year": 2019,
+                "payment_history": {
+                    "total_payments": 36,
+                    "on_time_payments": 34
+                }
+            },
+            "credit_cards": [
+                {
+                    "bank": "ICICI Bank",
+                    "outstanding_amount": 20000,
+                    "credit_limit": 100000,
+                    "due_date": "2024-10-15",
+                    "payment_history": {
+                        "total_payments": 24,
+                        "on_time_payments": 23
+                    }
+                }
+            ]
+        },
+        "insurance": {
+            "life_insurance": {
+                "provider": "LIC",
+                "sum_assured": 5000000,
+                "premium": 20000,
+                "term_years": 20
+            },
+            "health_insurance": {
+                "provider": "Religare",
+                "sum_assured": 1000000,
+                "premium": 15000,
+                "coverage_for": "Self and Family"
+            }
+        },
+        "tax_details": {
+            "pan_number": "ABCDE1234F",
+            "last_filing_year": 2023,
+            "total_tax_paid": 150000
+        }
+    },
+    "family": {
+        "spouse": {
+            "name": "Anjali Desai",
+            "age": 28,
+            "occupation": "Teacher",
+            "annual_income": 500000,
+            "investments": {
+                "mutual_funds": {
+                    "total_value": 150000,
+                    "funds_held": [
+                        {
+                            "name": "SBI Small Cap Fund",
+                            "value": 150000
+                        }
+                    ]
+                }
+            },
+            "liabilities": {
+                "credit_cards": [
+                    {
+                        "bank": "Axis Bank",
+                        "outstanding_amount": 10000,
+                        "credit_limit": 50000,
+                        "due_date": "2024-10-18",
+                        "payment_history": {
+                            "total_payments": 12,
+                            "on_time_payments": 12
+                        }
+                    }
+                ]
+            },
+            "insurance": {
+                "life_insurance": {
+                    "provider": "ICICI Prudential",
+                    "sum_assured": 3000000,
+                    "premium": 15000,
+                    "term_years": 20
+                },
+                "health_insurance": {
+                    "provider": "Religare",
+                    "sum_assured": 500000,
+                    "premium": 12000,
+                    "coverage_for": "Self and Children"
+                }
+            },
+            "tax_details": {
+                "pan_number": "FGHIJ5678K",
+                "last_filing_year": 2023,
+                "total_tax_paid": 50000
+            }
+        },
+        "children": [
+            {
+                "name": "Aryan Desai",
+                "age": 5,
+                "education_fund": {
+                    "total_value": 100000,
+                    "schemes": [
+                        {
+                            "name": "Sukanya Samriddhi Yojana",
+                            "value": 100000
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Maya Desai",
+                "age": 2,
+                "education_fund": {
+                    "total_value": 80000,
+                    "schemes": [
+                        {
+                            "name": "Sukanya Samriddhi Yojana",
+                            "value": 80000
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
