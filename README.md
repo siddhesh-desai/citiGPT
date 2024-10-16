@@ -129,7 +129,7 @@ API keys for Pinecone and Groq
 - [ ] Dark Mode
 - [ ] Integration of Voice Assistant
 
-See the [open issues](https://github.com/siddhesh-desai/SlideAI/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/siddhesh-desai/citiGPT/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,16 +178,16 @@ Thanks go to these wonderful people:
 - [Samarth Bura](https://github.com/samarthNV/)
 - [Tejaswini Wanare](https://github.com/Tejaswini-9703/)
 
-[contributors-shield]: https://img.shields.io/github/contributors/siddhesh-desai/SlideAI.svg?style=for-the-badge
-[contributors-url]: https://github.com/siddhesh-desai/SlideAI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/siddhesh-desai/SlideAI.svg?style=for-the-badge
-[forks-url]: https://github.com/siddhesh-desai/SlideAI/network/members
-[stars-shield]: https://img.shields.io/github/stars/siddhesh-desai/SlideAI.svg?style=for-the-badge
-[stars-url]: https://github.com/siddhesh-desai/SlideAI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/siddhesh-desai/SlideAI.svg?style=for-the-badge
-[issues-url]: https://github.com/siddhesh-desai/SlideAI/issues
-[license-shield]: https://img.shields.io/github/license/siddhesh-desai/SlideAI.svg?style=for-the-badge
-[license-url]: https://github.com/siddhesh-desai/SlideAI/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/siddhesh-desai/citiGPT.svg?style=for-the-badge
+[contributors-url]: https://github.com/siddhesh-desai/citiGPT/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/siddhesh-desai/citiGPT.svg?style=for-the-badge
+[forks-url]: https://github.com/siddhesh-desai/citiGPT/network/members
+[stars-shield]: https://img.shields.io/github/stars/siddhesh-desai/citiGPT.svg?style=for-the-badge
+[stars-url]: https://github.com/siddhesh-desai/citiGPT/stargazers
+[issues-shield]: https://img.shields.io/github/issues/siddhesh-desai/citiGPT.svg?style=for-the-badge
+[issues-url]: https://github.com/siddhesh-desai/citiGPT/issues
+[license-shield]: https://img.shields.io/github/license/siddhesh-desai/citiGPT.svg?style=for-the-badge
+[license-url]: https://github.com/siddhesh-desai/citiGPT/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/thesiddheshdesai
 [javascript]: https://img.shields.io/badge/Javascript-000000?style=for-the-badge&logo=javascript&logoColor=white
